@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Food Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Food Express</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Delicious Food, Delivered Fast</h2>
+            <p>Discover the best restaurants in your city and enjoy a variety of cuisines delivered to your doorstep!</p>
+            <form action="restaurants.html" method="GET">
+                <input type="text" name="search" placeholder="Search for restaurants or dishes" />
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="featured">
+        <h2>Featured Restaurants</h2>
+        <div class="restaurant-container">
+            <div class="restaurant-card">
+                <img src="./images/pasta.jpg" alt="Pasta Palace">
+                <h3>Pasta Palace</h3>
+                <p>Italian, Pasta, Pizza</p>
+                <button>Order Now</button>
+            </div>
+            <div class="restaurant-card">
+                <img src="./images/burger.jpg" alt="Burger Heaven">
+                <h3>Burger Heaven</h3>
+                <p>American, Burgers, Fast Food</p>
+                <button>Order Now</button>
+            </div>
+            <div class="restaurant-card">
+                <img src="./images/sushi.jpg" alt="Sushi World">
+                <h3>Sushi World</h3>
+                <p>Japanese, Sushi, Seafood</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Food Delivery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
